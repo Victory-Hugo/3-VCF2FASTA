@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-VCF="/mnt/f/0_现代DNA处理流程/output/merge/merged.biallelic.vcf.gz"
-SAMPLE_LIST="/mnt/f/0_现代DNA处理流程/output/merge/vcf.txt"
-REF="/mnt/f/0_现代DNA处理流程/script/chrM.fasta"
-OUTDIR="/mnt/f/0_现代DNA处理流程/output/fasta"
+VCF="/mnt/d/幽门螺旋杆菌/Script/分析结果/1-序列处理流/output/merge/merged_biallelic_7544.vcf.NoN.maf99.WGS.recode.fillN_SNP.vcf.gz"
+SAMPLE_LIST="/mnt/d/幽门螺旋杆菌/Script/分析结果/1-序列处理流/conf/7544个样本list.txt"
+REF="/mnt/d/幽门螺旋杆菌/参考序列/NC_000915.fasta"
+OUTDIR="/mnt/d/幽门螺旋杆菌/Script/分析结果/1-序列处理流/output/merge_fasta"
 mkdir -p "$OUTDIR"
 
 # # 索引

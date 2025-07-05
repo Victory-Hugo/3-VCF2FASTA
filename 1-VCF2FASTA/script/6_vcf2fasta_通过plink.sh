@@ -4,10 +4,10 @@
 set -euo pipefail
 
 # ================== 配置参数 ==================
-VCF_PATH="/mnt/f/0_现代DNA处理流程/output/Merge_VCF/merged_biallelic_complete_fixed_anno_去除hots.vcf.gz"
-OUT_PREFIX="/mnt/f/0_现代DNA处理流程/output/Merge_FASTA/merged_biallelic_complete_annot_去除hots"
+VCF_PATH="/mnt/d/幽门螺旋杆菌/Script/分析结果/1-序列处理流/output/merge/merged_biallelic_7544.vcf.NoN.maf99.WGS.recode.fillN_SNP.vcf.gz"
+OUT_PREFIX="/mnt/d/幽门螺旋杆菌/Script/分析结果/1-序列处理流/output/merge_fasta/merged_biallelic_7544.NoN.maf99.WGS.recode.fillN_SNP"
 PYTHON_PATH="/home/luolintao/miniconda3/bin/python3"
-SCRIPT_PATH="/mnt/f/0_现代DNA处理流程/script/6_vcf2fasta_通过plink.py"
+SCRIPT_PATH="/mnt/f/OneDrive/文档（科研）/脚本/Download/3-VCF2FASTA/1-VCF2FASTA/script/6_vcf2fasta_通过plink.py"
 MAPPING_FILE="/home/luolintao/07_20K_CPGDP/1_单倍群分型/data/质量控制_ID_Hap.tsv"
 THREADS=32
 
